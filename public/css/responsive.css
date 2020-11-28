@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1200px){
+    .background{
+        background-size: auto;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 345px;
+        transition: all 0.3s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        text-align: center;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+     #missionsection h2{
+         font-size: 1.9rem;
+         margin-bottom: 30px;
+     }
+   .card{
+       height: 138px;
+       display: flex;
+       flex-direction: column;
+       margin: 25px auto;
+   }
+   .card h3{
+       text-align: center;
+       margin-top: 0;
+   }
+   .card-img{
+       height: 40px;
+   }
+   .card-content p{
+    margin: -6px;
+    font-size: 6px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 7px;
+    font-weight: bold;
+  }
+  .h-primary {
+      margin-top: 240px;
+      font-size: 1.9rem;
+  }
+  #clients{
+    flex-wrap: wrap;
+ }
+ #clients img{
+    width: 150px;
+    padding: 5px;
+    height: auto;
+    border: none;
+ }
+ .client-item{
+     padding: 25px;
+ }
+ .btn{
+     margin: 0 78px;
+ }
+ .input{
+    margin: 5px;
+ }
+}
